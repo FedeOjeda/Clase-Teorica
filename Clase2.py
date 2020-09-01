@@ -16,10 +16,17 @@ print (lsita)
 
 # Lambda
 # Funciones Anónimas
-def doblar(num):
-    resultado = num * 2
-    return resultado
+# def doblar(num):
+#     resultado = num * 2
+#     return resultado
+#
+# doblar(2)
 
-doblar(2)    
-=======
->>>>>>> 8c59dac0f8b33429dad6f0cbcfa45e62eae2536b
+# def doblar(num):
+#     return num*2
+#
+# lambda num: num*2
+
+doblar = lambda num: num*2
+
+doblar(2)
