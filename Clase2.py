@@ -3,15 +3,15 @@
 # lista=[ expresion for elemento in iterable]
 
 # Método Tradicional
-lista = []
-for numero in range (0,11):
-    lista.append(numero**2)
-print (lista)
+# lista = []
+# for numero in range (0,11):
+#     lista.append(numero**2)
+# print (lista)
+#
+# # Con conprensión de Listas
+# lista = [numero**2 for numero in range(0,11)]
+# print (lsita)
 
-# Con conprensión de Listas
-lista = [numero**2 for numero in range(0,11)]
-print (lsita)
-<<<<<<< HEAD
 
 
 # Lambda
